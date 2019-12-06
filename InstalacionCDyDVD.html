@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="estilosCDyDVD.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Alatsi&display=swap" rel="stylesheet">
+    <link href="imagenes/favicon.ico" rel="shorcut icon" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Grabadora de CD y DVD</title>
+</head>
+<body>
+        <div id="wrapper">
+                <header>
+                    <img src="../TrabajoSistemas/imagenes/portada.jpg" alt="cabezera de presentación">
+                    <div id="title">
+                        <p> <b>Instalación</b> </p>
+                    </div>
+                </header>
+                    <!-- Al publicar el porfolio, le quitamos nav -->
+                <nav>
+                    <ul>
+                        <li><a href="GrabadoraCDyDVD.html">Inicio</a></li>
+                        <li><a href="FuncionamientoCDyDVD.html">Funcionamiento</a></li>
+                        <li class="active"><a href="#">Instalación</a></li>
+                        <li><a href="MarcasCDyDVD.html">Marcas</a></li>
+                        <li><a href="BibliografiaCDyDVD.html">Webgrafía</a></li>
+                    </ul>
+                </nav>
+                <main>
+                    <h2>¿Cómo se instala en el equipo?</h2>
+                    <p>
+                        El procedimiento de instalación de una unidad de grabación interna es complejo, porque hay que abrir la PC para instalarla.
+                    </p>
+                    <img id="lector" src="imagenes/montaje 2.jpg">
+                    <p>
+                            <b>PROCEDIMIENTO: Colocación de terminales y configuración</b><br>
+                            <p>1. La ID SCSI se configura al establecer interruptores DIP en la unidad. La figura muestra los interruptores de configuración de ID SCSI en la unidad NEC CDR-84.
+                               Si instala un dispositivo de puerto paralelo, es probable que no necesite establecer una ID de unidad u otras opciones de configuración, pero revise. Si instala una unidad que usa interfaz de propietario, es mucho más probable que tenga que establecer una o más opciones de configuración en la unidad.<br></p>
+                            <p>2. Establezca la ID de la unidad. En dispositivos SCSI establezca la ID SCSI para la unidad en un número mayor que cualquiera unidad de disco duro SCSI instaladas en el sistema. Si no hay otros dispositivos SCSI en el sistema, establezca la ID de la unidad en 1,
+                            dejando ID 0 disponible para una futura instalación de un disco duro. Asegúrese de usar un número de ID único, que no comparta ningún otro dispositivo SCSI en el sistema.<br></p>
+                            <p>3. Después de verificar la configuración de la unidad, instale las guías de en ambos lados de la unidad.<br></p>
+                            <p>4. Deslice con cuidado la unidad de CD-ROM en la bahía, hasta que el frente de la unidad esté alineado con el frente de las unidades de discos flexibles; después asegure la unidad en la bahía con tornillos.
+                    </p>
+                    <img id="lector" src="imagenes/montaje 3.jpg" >
+                    <p>
+                        <b>PROCEDIMIENTO: Como conectar los cables</b><br>
+                        <p>Usted necesita conectar a la unidad un cable de corriente y un cable de datos. Si su sistema contiene una tarjeta de sonido, también debe hacer una conexión entre su unidad de CD-ROM y la tarjeta de sonido.</p>
+                        <p>1. Conecte un cable de corriente a la unidad de CD-ROM.</p>
+                        <p>2. Conecte el cable de interfaz entre el adaptador anfitrión (o tarjeta de sonido) y la unidad de CD-ROM. Asegúrese de alinear la pata 1 en cada extremo del cable con la pata 1 correcta en la unidad de CD-ROM y en adaptador. Puede resultarle más fácil quitar la tarjeta de sonido o adaptador anfitrión, conectar el cable de interfaz en ella y después reinstalar el adaptador.</p>
+                        <p>3. Si su sistema contiene una tarjeta de sonido, conecte la unidad de CD-ROM a la tarjeta de sonido con el cable que sea necesario.</p>
+                    </p>
+                    <img id="lector" src="imagenes/montaje.jpg" >
+                    <p>
+                        <b>Como terminar la instalación:</b><br>
+                        <p>El BIOS de la PC no incluye soporte directo para las unidades de CD-ROM, por lo que su sistema requiere un controlador(Driver en inglés) de CD-ROM especial para permitir a la unidad comunicarse con la PC. El controlador requerido se incluirá con cualquier dispositivo que controle la unidad de CD-ROM y no con la unidad misma. Los controladores necesarios suelen instalarse junto con el sistema operativo o venir con el dispositivo en cuestión.(Suelen ser reconocidos por la bios)</p>
+                        <p>Si desea conectar su unidad de CD-ROM a un adaptador anfitrión SCSI, necesitará un controlador de dispositivo CD-ROM escrito en forma específica para su adaptador anfitrión SCSI.</p>
+                        <p>También existen grabadoras de DVD  y CD externas que se conectan por puertos USB, por lo que los ordenadores no necesitan de ningún tipo de instalación extra.</p>
+
+                    </p>
+                    <img id="lector" src="imagenes/grabadora externa.jpg" >
+
+                    <!--el siguente div esta solo para cerrar los bloques apilados con float left y en el estilo se indicara clear: both -->
+                    <div id="cierre"></div>
+                
+                </main>
+            
+            <footer>
+                <div class="cincuenta">
+                        <h3>Contacto</h3>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3197.2561818207478!2d-4.556996084443982!3d36.74042147876138!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd72f1d2ffe3a137%3A0xe095a3ea561debe2!2sCalle%20Frederick%20Terman%2C%2029590%2C%20M%C3%A1laga!5e0!3m2!1ses!2ses!4v1574947028312!5m2!1ses!2ses"  frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                        <p>C/Frederick Termann<br>Telefono: 952 222222</p>
+                    </div>
+                    
+                    <div class="venticinco">
+                        <h3>Redes Sociales</h3>
+                        <ul>
+                            <li><i class="fa fa-github-square" aria-hidden="true"></i>Github</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="venticinco">
+                        <h3>Enlaces</h3>
+                        <ul>
+                            
+                            <li><a href="GrabadoraCDyDVD.html">Inicio</a></li>
+                            <li><a href="FuncionamientoCDyDVD.html">Funcionamiento</a></li>
+                            <li><a href="InstalacionCDyDVD.html">Instalación</a></li>
+                            <li><a href="MarcasCDyDVD.html">Marcas</a></li>
+                            <li><a href="BibliografiaCDyDVD.html">Webgrafía</a></li>
+                                  
+                        </ul>
+                    </div>
+                    <div class="clear"></div><!-- para cortar el float -->
+            </footer>  
+        </div>
+</body>
+</html>

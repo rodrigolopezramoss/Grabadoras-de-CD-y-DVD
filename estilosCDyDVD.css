@@ -1,0 +1,159 @@
+/* hoja de estilos para el porfolio*/
+body{
+    /*background-color: rgb(34, 31, 28);*/
+    background-image: linear-gradient(white, rgb(34, 31, 28) );
+    font-family: 'Alatsi', sans-serif;
+}
+header{
+    position: relative;
+    /*height: 300px;*/
+}
+header img{
+    /*position: absolute;*/
+    width: 80%;
+    height: auto;
+}
+
+#wrapper{
+    width: 85%;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+}
+#title{
+    position: absolute;
+    font-size: 3.25vw;
+    color: rgb(143, 34, 34);
+    text-align: center;
+
+    border-radius: 15%;
+    background-color: rgba(82, 82, 80, 0.35);
+    width: 20%;
+    padding: 1vw;
+
+    top: 12vw;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+nav ul {
+    font-size: 2vw;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(207, 10, 10);
+}
+nav ul li{
+    display: inline-block;
+    padding: 10px;
+    font-size: 110%;
+    
+}
+nav ul li.active{
+    background-color: rgb(145, 0, 0);
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+nav ul li:hover{
+    background-color: rgb(189, 2, 2);
+}
+nav ul li a:hover{
+    color: black;
+}
+
+#lector{
+    width: 40%;
+    margin-left: 25%;
+}
+
+    main{
+        margin-top: 1%;
+    }
+    
+    main p{
+        margin-left: 6%;
+        margin-right: 6%;
+    }
+
+    main img{
+        
+        width:40%;
+        margin-left: 30%;
+    }
+
+
+    h2{
+        text-align: center;
+        font-size: 3.45vw;
+    }
+
+    /* estilo de footer */ 
+    footer {
+        margin-top: 5%;
+        background-color: rgb(145, 0, 0);
+        color:white;
+        height:300px;/* debería poder quitar esto */
+        }
+    footer div {float:left;}
+    
+    footer .cincuenta {width:50%;
+        background-color: rgb(145, 0, 0);
+        
+        }     
+    footer  p, footer  h3 {margin-left:15px;}
+    
+    footer .venticinco {width:25%;
+        background-color: rgb(145, 0, 0);
+        
+        }   
+
+    footer  iframe {width:80%;
+        height:60%;
+        margin:10px auto;
+        display:block;
+        }
+    footer ul {list-style-type: none;
+        padding-inline-start: 5px;}
+    
+    footer .fa {font-size:2em;
+        margin-right:5px;}
+    
+    footer ul li a {text-decoration:none;
+        color:white;}
+    
+    footer .clear {clear:both;}
+
+
+    @media only screen  and (max-width:500px){
+        footer .venticinco {
+            font-size: 80%;
+            display: block; }
+        footer .cincuenta {
+            font-size: 80%;
+            display: block; }
+
+        #lector{
+            width: 70%;
+            margin-left: 15%;
+        }
+        nav ul {
+            font-size: 75%;
+        }
+    }
+
+    @media only screen  and (min-width:900px){
+        div.polaroid {
+            width:20%;
+            float:left;
+            margin:2%;
+        }
+        div.container {
+            padding: 10px 20px
+        }
+    }
+
+    #cierre{clear: both;}
