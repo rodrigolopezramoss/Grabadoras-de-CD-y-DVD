@@ -48,7 +48,7 @@ nav ul {
 nav ul li{
     display: inline-block;
     padding: 10px;
-    font-size: 105%;
+    font-size: 110%;
     
 }
 nav ul li.active{
@@ -141,7 +141,7 @@ nav ul li a:hover{
             margin-left: 15%;
         }
         nav ul {
-            font-size: 75%;
+            font-size: 55%;
         }
     }
 
